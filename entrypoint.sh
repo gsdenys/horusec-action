@@ -2,4 +2,6 @@
 
 horusec version
 
+echo $*
+
 horusec start -D -e="true" $*
