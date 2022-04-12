@@ -8,9 +8,9 @@ inputs:
     
 runs:
   using: 'docker'
-  image: 'horuszup/horusec-cli:latest'
+  image: 'docker://horuszup/horusec-cli:latest'
   args:
-    - horusec start ${{ inputs.arguments }}
+    - horusec start -e="true" ${{ inputs.arguments }}
 
 branding:
   icon: "check"
