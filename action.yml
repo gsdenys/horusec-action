@@ -8,11 +8,9 @@ inputs:
     
 runs:
   using: 'docker'
-  image: 'Dockerfile'
+  image: 'horuszup/horusec-cli:latest'
   args:
-    - ${{ inputs.ignore_files }}
-    - ${{ inputs.arguments }}
-
+    - horusec start ${{ inputs.arguments }}
 
 branding:
   icon: "check"
