@@ -6,4 +6,4 @@ echo "# Olá Mundo" > /github/workspace/teste.md
 
 ls
 
-horusec start -e="true" $*
+horusec start -D -e="true" $*
