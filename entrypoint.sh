@@ -2,17 +2,8 @@
 
 horusec version
 
-echo "###"
-pwd
-echo "###"
-ls 
-echo "###"
 
-echo "/github/workspace"
-ls /github/home
-
-
-
-
+mkdir -p /github/workspace/.horusec
+chmod +w /github/workspace/.horusec
 
 horusec start -e="true" $*
