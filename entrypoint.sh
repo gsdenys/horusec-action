@@ -3,6 +3,6 @@
 horusec version
 
 echo "hello World"
-echo $*
+ls
 
 horusec start -D -e="true" $*
