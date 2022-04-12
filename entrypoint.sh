@@ -1,5 +1,8 @@
 #!/bin/sh -l
 
+
+
+
 horusec version
 
-horusec start -e="true" $*
+sudo horusec start -e="true" $*
