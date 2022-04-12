@@ -1,6 +1,6 @@
 FROM horuszup/horusec-cli:latest
 
-COPY entrypoint /entrypoint.sh
+COPY entrypoint.sh /entrypoint.sh
 
 
 ENTRYPOINT ["/entrypoint.sh"]
