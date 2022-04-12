@@ -11,6 +11,7 @@ runs:
   image: 'Dockerfile'
   args:
     - ${{ inputs.ignore_files }}
+    - ${{ inputs.arguments }}
 
 
 branding:
