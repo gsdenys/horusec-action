@@ -1,8 +1,8 @@
 FROM horuszup/horusec-cli:latest
 
-COPY entrypoint.sh /entrypoint.sh
+WORKDIR /opt/data
 
-USER root
+COPY entrypoint.sh /entrypoint.sh
 
 ENTRYPOINT ["/entrypoint.sh"]
 
