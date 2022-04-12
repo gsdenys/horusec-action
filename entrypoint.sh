@@ -2,7 +2,4 @@
 
 horusec version
 
-echo "hello World"
-ls
-
-horusec start -D -e="true" $*
+horusec start -e="true" $*
