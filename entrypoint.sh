@@ -2,4 +2,4 @@
 
 horusec version
 
-horusec start -e="true" -O="/tmp/output.out" $*
+horusec start -e="true" -O="/tmp/output.txt" $*
